@@ -1,0 +1,102 @@
+body {
+    font-family: Sans-serif;
+}
+
+.headerNav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(50, 50, 50);
+    margin: auto;
+    padding: 5px;
+  
+}
+.searchForm{
+    float: right;
+    margin-right: 5px;
+}
+form input{
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 1px;
+
+}
+.searchForm input[type=submit]{
+    border-color:burlywood;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 3px;
+    color: white;
+
+}
+.headerList li{
+   display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+    
+}
+.headerList a{
+    text-decoration: none;
+    color: white;
+}
+.loginSection{
+    width: 100%;
+    
+}
+.loginSection form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.loginSection  input{
+    margin-bottom: 25px;
+}
+.loginSection input[type=submit]{
+    width: 70px;
+    height: 25px;
+    background-color: dodgerblue;
+    color: white;
+
+}
+
+
+.loginSection h2{
+    width: 100%;
+    text-align: center;
+}
+.loginSection form{
+    width: 500px;
+}
+.loginSection form input{
+    width: 100%;
+}
+.searchResultSection{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.searchResultSection h5{
+    width: 100%;
+    color: burlywood;
+    height: 20px;
+    background-color: gray;
+    padding-top: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+.searchResultSection article{
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+ 
+  
+}
+a img{
+    height: 350px;
+    width: 250px;
+    border-color: gray;
+    margin: 5px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+}
